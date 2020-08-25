@@ -48,7 +48,7 @@
  
  #### Licença :scroll:
  
- Este projeto está com a licença [MIT](https://github.com/wevdiaz/NLW-Ecoleta/blob/master/LICENSE)
+ Este projeto está com a licença MIT. Veja o arquivo de [LICENSE](https://github.com/wevdiaz/NLW-Ecoleta/blob/master/LICENSE) para mais destalhe.
  
  Realizado com :heart: by Diazz. :technologist:
  
