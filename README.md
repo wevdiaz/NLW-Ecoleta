@@ -4,6 +4,31 @@
 
 ***
 
+<p align="center">
+ 
+ <a>
+   <img src="https://img.shields.io/github/repo-size/wevdiaz/NLW-Ecoleta?color=%2300CC33">
+ </a>
+ 
+  <a>
+   <img src="https://img.shields.io/github/license/wevdiaz/NLW-Ecoleta?color=%2300CC33">
+ </a>
+ 
+  <a>
+   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/wevdiaz/NLW-Ecoleta?color=%2300CC33">
+  </a>
+  
+  <a>
+   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/wevdiaz/NLW-Ecoleta?color=%2300CC33">
+  </a>
+ 
+ <a>
+  <img alt="Diazz" src="https://img.shields.io/badge/made%20by-Diazz-DOA?color=%2300CC33">
+ </a>
+ 
+</p>
+
+
 ### Sobre :briefcase:
 
  Mais um projeto desenvolvido durante uma semana de aprendizagem da [rocketseat](https://rocketseat.com.br) :rocket: , a **Next Level Week** trouxe a bacana ideia de criar uma aplicação web de criar cadastro de pontos de coletas, é muito importante o trabalho de reciclagem e concientização do mesmo, pois isso é uma maneira de poder ajudar o planeta não só agora, mais a futuro prazo.:deciduous_tree: 
