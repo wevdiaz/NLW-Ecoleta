@@ -63,7 +63,7 @@
  
  Para rodar o projeto será necessário.
  
- * Precisará do Nodejsna máquina.
+ * Precisará do Nodejs na máquina.
  
  * Npm install para instalação das dependências do projeto.
  
