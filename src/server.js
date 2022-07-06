@@ -1,16 +1,16 @@
 const express = require("express");
 const server = express();
+const nunjucks = require("nunjucks");
 
 const db = require("./database/db");
 
-server.use(express.static("public"));
+server.use(express.static(__dirname + '/public'));
 
 // habilitar o uso de req.body na nossa aplicação
 server.use(express.urlencoded({ extended: true }));
 
-// Template Engine 
-const nunjucks = require("nunjucks");
 
+// Template Engine 
 server.set("view engine", "njk");
 
 nunjucks.configure("src/views", {
@@ -53,15 +53,12 @@ server.post("/savepoint", function(req, res){
     ];
 
     function afterInsertData(err){
-    if (err) {
-        console.log(err);
-        return res.send("Erro no cadastro");
-    }
-
-    console.log("Cadastrado com sucesso");
-    console.log(this);
-
-    return res.render("create-point.njk", { saved: true } );
+        if (err) {
+            console.log(err);
+            return res.send("Erro no cadastro");
+        }
+        
+        return res.render("create-point.njk", { saved: true } );
     }
 
     db.run(query, values, afterInsertData );
